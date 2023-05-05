@@ -1,0 +1,24 @@
+public class Main {
+    public static void main(String[] args) {
+        Coche micoche = new Coche();
+        micoche.aumetarpuetas();
+        System.out.println(micoche.puerta);
+
+        int resultado = 0;
+        resultado= suma(4, 2, 7);
+        System.out.println(resultado);
+    }
+    public static int suma (int a, int b, int c) {
+    return a + b + c;
+
+    }
+}
+
+class Coche {
+    public int puerta = 4;
+
+    public void aumetarpuetas() {
+        this.puerta++;
+    }
+
+}
